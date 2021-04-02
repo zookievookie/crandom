@@ -1,0 +1,24 @@
+@font-face{
+  font-family:blocks;
+  src:url('resources/GOOD PEOPLE.otf');
+}
+body{
+  background-color:#3333ff;
+  font-family:blocks;
+  font-size:24pt;
+}
+table{
+  background-color:#7f7f3f;
+}
+.game-box{
+  width:1600px;
+  height:900px;
+  background-color:white;
+  border-color:black;
+  border-width:5px;
+  border-style:solid;
+  border-radius:5px;
+  position:absolute;
+  left:100px;
+  top:100px;
+}

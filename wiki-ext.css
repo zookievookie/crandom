@@ -1,0 +1,25 @@
+.category{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.entry{
+  cursor:default;
+  margin:10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border:solid 2px black;
+  border-radius:10px;
+  background-color:#ddd
+}
+.entry-image{
+  height:130px;
+  margin:10px;
+}
+.entry-article{
+  display:block;
+  max-width:400px;
+  float:right;
+}
